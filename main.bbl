@@ -1,0 +1,57 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[Anderson et~al.(1998)Anderson and Arsenault]{anderson1998research}
+ANDERSON G, ARSENAULT N, 1998.
+\newblock Fundamentals of educational research\allowbreak[M].
+\newblock London: Falmer Press.
+
+\bibitem[Christensen(2000)]{christensen2000income}
+CHRISTENSEN A, 2000.
+\newblock Income disparity in south africa\allowbreak[M]//\allowbreak
+The World of Inequality.
+\newblock Random House: 400-401.
+
+\bibitem[Smith(2001)]{smith2001taxation}
+SMITH D, 2001.
+\newblock The effect of taxation on income distribution\allowbreak[J].
+\newblock Journal of Economics, 23: 233-234.
+
+\bibitem[{World Bank}(2004)]{worldbank2004income}
+{World Bank}, 2004.
+\newblock Income distribution in different countries\allowbreak[R].
+\newblock Washington, D.C.: World Bank.
+
+\bibitem[林洁珍\ 等(1998)林洁珍 and 廖柏伟]{lin1998migration}
+林洁珍, 廖柏伟, 1998.
+\newblock 人口移入对经济的作用\allowbreak[M]//\allowbreak
+移民与香港经济.
+\newblock 商务印书馆: 97-122.
+
+\bibitem[刘勇(2005)]{liu2005income}
+刘勇, 2005.
+\newblock 中国的不均衡收入分配\allowbreak[J].
+\newblock 中国经济研究\allowbreak (34): 344.
+
+\bibitem[王冬冬(2003)]{wang2003regional}
+王冬冬, 2003.
+\newblock 中国的不均衡经济发展\allowbreak[M].
+\newblock 北京: 经济出版社.
+
+\bibitem[{中国国家统计局}(2004)]{stats2004yearbook}
+{中国国家统计局}, 2004.
+\newblock 2004年统计年鉴\allowbreak[EB/OL].
+\newblock \allowbreak[2026-04-05].
+\newblock \url{http://www.stats.gov.cn}.
+
+\end{thebibliography}

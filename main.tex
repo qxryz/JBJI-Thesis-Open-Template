@@ -1,0 +1,71 @@
+% JBJI thesis open-source template.
+% By JBJI 2022 grade students.(2026/4/5)
+% 改编自原暨南大学论文latex模板（2021/06/21）
+
+\documentclass[master]{jnuthss}
+
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{siunitx}
+\usepackage{caption}
+\usepackage{cleveref}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage[section]{placeins}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, fit, calc, backgrounds}
+
+\etitle{Sample JBJI Undergraduate Thesis Title}
+\etitlelinea{Sample JBJI Undergraduate Thesis}
+\etitlelineb{Title in English}
+\ctitle{中文论文题目示例}
+\author{Student Name}
+\cauthor{学生姓名}
+\studentid{2022000000}
+\emajor{Programme Name}
+\cmajor{专业名称}
+\esupervisor{Supervisor Name}
+\csupervisor{指导教师姓名}
+\college{暨南大学伯明翰大学联合学院}
+\department{}
+\edate{dd/mm/yyyy}
+\cdate{YYYY年MM月DD日}
+
+\graphicspath{{figures/}}
+
+\begin{document}
+
+\maketitle{}
+\makestatement{}
+\frontmatter
+
+\include{misc/eabstract}
+\include{misc/cabstract}
+\jnuthssmaketableofcontents
+
+\mainmatter
+
+\include{chapter1/chapter1}
+\include{chapter2/chapter2}
+\include{chapter3/chapter3}
+\include{chapter4/chapter4}
+\include{chapter5/chapter5}
+
+\backmatter
+
+\include{misc/aknowledgements}
+\include{misc/achievements}
+\input{misc/references.tex}
+
+\end{document}
