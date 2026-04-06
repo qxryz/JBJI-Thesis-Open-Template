@@ -22,12 +22,6 @@ with neutral placeholder text.
 - Chinese references are intended to sort by pinyin through sample `key` values.
 - If numerical style is preferred, switch to `\jnuthssUseNumericalBibliography` in `jnuthss.cls`.
 
-## Compile
-
-```powershell
-latexmk -xelatex -interaction=nonstopmode -halt-on-error main.tex
-```
-
 ## Notes
 
 - The sample metadata in `main.tex` should be replaced before final submission.
