@@ -1,8 +1,7 @@
 # JBJI Thesis Open Template
 
-This folder is a public, sanitized JBJI undergraduate thesis LaTeX template.
-It keeps the official-format structure while replacing personal thesis content
-with neutral placeholder text.
+此文件夹中包含一个公开可用且经过净化处理的 JBJI 本科毕业论文的 LaTeX 模板。
+它保留了官方格式的结构，同时用中性占位符文本取代了论文内容。并修改了cls文件，新增jbji风格的参考文献呈现
 
 ## Included
 
