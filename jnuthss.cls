@@ -509,8 +509,8 @@ nosep,
 \newcommand{\jnuthss@coverENTitleValueWidth}{12.95cm} % 英文封面标题内容列宽
 \newcommand{\jnuthss@coverENTitleLineGap}{0.28cm} % 英文封面两行题目间距
 \newcommand{\jnuthss@coverENInfoTopSpace}{6.84cm} % 英文封面信息区顶部空白
-\newcommand{\jnuthss@coverENInfoLabelWidth}{4.62cm} % 英文封面信息标签列宽
-\newcommand{\jnuthss@coverENInfoValueWidth}{6.98cm} % 英文封面信息内容列宽
+\newcommand{\jnuthss@coverENInfoLabelWidth}{5.20cm} % 英文封面信息标签列宽
+\newcommand{\jnuthss@coverENInfoValueWidth}{9.20cm} % 英文封面信息内容列宽
 \newcommand{\jnuthss@coverENInfoRowGap}{0.27cm} % 英文封面信息行距
 
 \newcommand{\jnuthss@coverCNHeadlineFont}{\CJKfontspec[AutoFakeBold=2.0]{SimHei}\bfseries\fontsize{26pt}{31pt}\selectfont} % 中文封面顶部大标题字体
@@ -588,19 +588,19 @@ nosep,
 \noindent
 \begin{tabular}{@{}p{\jnuthss@coverENTitleLabelWidth}p{\jnuthss@coverENTitleValueWidth}@{}} % 英文封面标题标签列宽
 {\jnuthss@coverENFont Title} & % 英文封面统一字体
-{\jnuthss@coverENFont \underline{\jnuthss@value@etitlelinea}}\\[\jnuthss@coverENTitleLineGap] % 英文封面统一字体
+{\jnuthss@coverENFont \underline{\makebox[\jnuthss@coverENTitleValueWidth][l]{\jnuthss@value@etitlelinea}}}\\[\jnuthss@coverENTitleLineGap] % 英文封面统一字体
 &
-{\jnuthss@coverENFont \underline{\jnuthss@value@etitlelineb}}\\ % 英文封面统一字体
+{\jnuthss@coverENFont \underline{\makebox[\jnuthss@coverENTitleValueWidth][l]{\jnuthss@value@etitlelineb}}}\\ % 英文封面统一字体
 \end{tabular}
 
 \vspace{\jnuthss@coverENInfoTopSpace} % 英文封面信息区顶部空白
 \noindent
 \begin{tabular}{@{}p{\jnuthss@coverENInfoLabelWidth}p{\jnuthss@coverENInfoValueWidth}@{}} % 英文封面信息标签列宽
-{\jnuthss@coverENFont Student Name} & {\jnuthss@coverENFont \underline{\jnuthss@value@author}}\\[\jnuthss@coverENInfoRowGap] % 英文封面统一字体
-{\jnuthss@coverENFont Student No.} & {\jnuthss@coverENFont \underline{\jnuthss@value@studentid}}\\[\jnuthss@coverENInfoRowGap] % 英文封面统一字体
-{\jnuthss@coverENFont Major} & {\jnuthss@coverENFont \underline{\jnuthss@value@emajor}}\\[\jnuthss@coverENInfoRowGap] % 英文封面统一字体
-{\jnuthss@coverENFont Supervisor} & {\jnuthss@coverENFont \underline{\jnuthss@value@esupervisor}}\\[\jnuthss@coverENInfoRowGap] % 英文封面统一字体
-{\jnuthss@coverENFont Date (dd/mm/yyyy)} & {\jnuthss@coverENFont \underline{\jnuthss@value@edate}}\\ % 英文封面统一字体
+{\jnuthss@coverENFont Student Name} & {\jnuthss@coverENFont \underline{\makebox[\jnuthss@coverENInfoValueWidth][l]{\jnuthss@value@author}}}\\[\jnuthss@coverENInfoRowGap] % 英文封面统一字体
+{\jnuthss@coverENFont Student No.} & {\jnuthss@coverENFont \underline{\makebox[\jnuthss@coverENInfoValueWidth][l]{\jnuthss@value@studentid}}}\\[\jnuthss@coverENInfoRowGap] % 英文封面统一字体
+{\jnuthss@coverENFont Major} & {\jnuthss@coverENFont \underline{\makebox[\jnuthss@coverENInfoValueWidth][l]{\jnuthss@value@emajor}}}\\[\jnuthss@coverENInfoRowGap] % 英文封面统一字体
+{\jnuthss@coverENFont Supervisor} & {\jnuthss@coverENFont \underline{\makebox[\jnuthss@coverENInfoValueWidth][l]{\jnuthss@value@esupervisor}}}\\[\jnuthss@coverENInfoRowGap] % 英文封面统一字体
+{\jnuthss@coverENFont Date (dd/mm/yyyy)} & {\jnuthss@coverENFont \underline{\makebox[\jnuthss@coverENInfoValueWidth][l]{\jnuthss@value@edate}}}\\ % 英文封面统一字体
 \end{tabular}
 
 \clearpage
